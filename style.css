@@ -1,0 +1,67 @@
+.app{
+    width: 661px;
+    min-height:763px;
+    margin: 150px auto;
+    background-color: lightgray;
+    padding: 62px 90px 62px 90px;
+    box-sizing: border-box;
+}
+.search-line{
+background-color: #fff;
+height:61px;
+width:500px;
+border:solid 1px black;
+}
+
+.search-input{
+    height:61px;
+    width:500px;
+    outline: none;
+    border:none;
+    padding:0px 20px;
+    font-size:18px;
+    box-sizing: border-box;
+}
+.save-repos{
+    font-size:24px;
+    font-weight:400;
+    list-style:none;
+    position: relative;
+    background-color: lightsalmon;
+    width:503px;
+    top:30px;
+    min-height:303px;
+}
+.repo-list{
+    width:500px;
+    min-height: 220px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.repo-input{
+    list-style:none;
+    height:44px;
+    padding:5px 0 0 10px;
+    width:100%;
+    font-size:30px;
+    font-weight: 400;
+    border: solid 2px black;
+    box-sizing: border-box;
+    background-color: #E3E3E3;
+}
+.repo-input:hover{
+    background-color: #65CDF9;
+}
+.repo-save{
+    padding: 5px 0 0 10px;
+    height:101px;
+    box-sizing: border-box;
+    background-color: lightcoral;
+    border: solid 1px red;
+    position: relative;
+}
+.delete-btn{
+    position: absolute;
+    left: 440px;
+    top: 35px;
+}
