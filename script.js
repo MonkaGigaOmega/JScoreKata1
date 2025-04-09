@@ -12,14 +12,14 @@ class View {
         this.app.append(this.savesRepos);
 
 
-        this.repoList.addEventListener('click', this.handleRepoClick.bind(this));//deepseek
+        this.repoList.addEventListener('click', this.handleRepoClick.bind(this));
     }
 
-    handleRepoClick(event) {//deepseek
+    handleRepoClick(event) {
         const repoElement = event.target.closest('.repo-input');
         if (!repoElement) return;
 
-        const repoData = repoElement._data; // Данные храним в элементе
+        const repoData = repoElement._data; 
         this.createSaveRepo(repoData);
         this.searchInput.value = '';
         this.repoList.innerHTML=''
